@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reading Technique Practice - Presentation</title>
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config = {
+  theme: { extend: {
+    colors: { cream:'#F7F4EB', sage:'#2D5A27', mint:'#85A98F', softgreen:'#D3E2C6', accent:'#E07A5F', cardbg:'#FFFDF9' },
+    fontFamily: { sans:['Comic Sans MS','Chalkboard SE','sans-serif'], serif:['Georgia','serif'] }
+  } }
+}
+</script>
+<style>
+:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html,body{height:100%}
+body{background:#F7F4EB}
+.slide{display:none}
+.slide.active{display:flex}
+</style>
+</head>
+<body class="bg-cream text-gray-800 h-screen flex flex-col font-sans overflow-hidden select-none">
+
+<header class="bg-sage text-white p-4 flex justify-between items-center shadow-md z-10">
+  <div class="flex items-center space-x-3">
+    <span class="text-2xl">📖</span>
+    <h1 class="text-xl font-bold tracking-wide">Reading Technique Practice</h1>
+  </div>
+  <div class="text-sm bg-mint/30 px-4 py-1.5 rounded-full border border-softgreen/30">
+    Slide <span id="current-slide">1</span> / <span id="total-slides">18</span>
+  </div>
+</header>
+
+<main id="slider-container" class="flex-1 relative overflow-y-auto p-4 md:p-8 flex items-center justify-center">
+
+<!-- 1 -->
+<section class="slide active flex-col items-center justify-center text-center w-full max-w-4xl bg-cardbg p-8 md:p-12 rounded-3xl shadow-xl border-4 border-dashed border-mint my-auto min-h-[500px]">
+  <div class="text-6xl mb-4">🕒 ⛪ ☕</div>
+  <h1 class="text-4xl md:text-5xl font-extrabold text-sage mb-4 leading-tight">READING TECHNIQUE PRACTICE</h1>
+  <p class="text-xl text-sage/80 mb-8 font-semibold">Kelas XI.2</p>
+  <div class="bg-softgreen/40 px-6 py-4 rounded-2xl border border-mint inline-block text-left">
+    <p class="font-bold text-sage mb-2">Disusun Oleh:</p>
+    <ul class="grid grid-cols-2 gap-x-6 gap-y-1 text-sage/90">
+      <li>• Cantya</li><li>• Dina</li><li>• Naufa</li><li>• Vionna</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 2 -->
+<section class="slide flex-col w-full max-w-4xl bg-cardbg p-6 md:p-10 rounded-3xl shadow-xl border-2 border-mint my-auto">
+  <div class="flex items-center space-x-3 mb-4">
+    <span class="bg-sage text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Materi</span>
+    <h2 class="text-3xl font-bold text-sage">SKIMMING - Definition</h2>
+  </div>
+  <div class="space-y-4 text-gray-700 leading-relaxed text-base md:text-lg">
+    <p><strong>Skimming</strong> is a reading technique used to get the general idea or overall meaning of a text quickly. When we skim a text, we do not read every single word carefully. Instead, we focus on the most important parts, such as the title, headings, first sentences, last sentences, keywords, and repeated ideas.</p>
+    <div class="bg-softgreen/30 p-4 rounded-xl border-l-4 border-sage">
+      <p class="italic">Example: Imagine you receive a 5-page article about environmental problems. Your teacher asks, "What is this article mainly about?" You don't need to read every sentence—just read the title, headings, and key sentences.</p>
+    </div>
+    <div class="mt-4">
+      <h3 class="font-bold text-sage mb-2">How to use Skimming:</h3>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm md:text-base">
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">1. Read the title.</li>
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">2. Look at headings &amp; subheadings.</li>
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">3. Read the 1st sentence of each paragraph.</li>
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">4. Look for repeated keywords.</li>
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">5. Pay attention to the conclusion.</li>
+        <li class="bg-cream p-2 rounded-lg border border-mint/50">6. Decide the general topic of the text.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 3 -->
+<section class="slide flex-col w-full max-w-4xl bg-cardbg p-6 md:p-10 rounded-3xl shadow-xl border-2 border-mint my-auto">
+  <div class="flex items-center space-x-3 mb-4">
+    <span class="bg-accent text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Soal</span>
+    <h2 class="text-2xl font-bold text-sage">SKIMMING - Example 1</h2>
+  </div>
+  <div class="bg-cream p-4 rounded-xl mb-4 text-sm md:text-base text-gray-700 leading-relaxed border border-mint/40">
+    <p class="font-semibold text-sage mb-1">Passage:</p>
+    <p>Sarah's English teacher gave the students a four-page article entitled "Healthy Lifestyle for Teenagers." The article discussed several topics, including healthy eating, regular exercise, getting enough sleep, drinking enough water, and managing stress.</p>
+    <p class="mt-2">Sarah only had three minutes before the class discussion started. Instead of reading every sentence carefully, she first looked at the title. Then, she read the headings and the first sentences of several paragraphs. She noticed that the article repeatedly discussed ways teenagers could improve their physical and mental health. After doing this, Sarah was able to explain that the article was generally about healthy habits that teenagers should develop in their daily lives.</p>
+  </div>
+  <div class="bg-softgreen/20 p-4 rounded-xl border border-softgreen">
+    <p class="font-bold text-sage mb-2">Question:</p>
+    <p class="mb-3 font-medium">Which reading technique did Sarah use?</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
+      <div class="p-2 bg-white rounded border border-gray-200">A. Scanning</div>
+      <div class="p-2 bg-white rounded border border-gray-200">B. Reading for Detail</div>
+      <div class="p-2 bg-white rounded border border-gray-200">C. Inference</div>
+      <div class="p-2 bg-white rounded border border-gray-200">D. Skimming</div>
+      <div class="p-2 bg-white rounded border border-gray-200">E. Vocabulary in Context</div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section class="slide flex-col w-full max-w-4xl bg-cardbg p-6 md:p-10 rounded-3xl shadow-xl border-2 border-sage my-auto">
+  <div class="flex items-center space-x-3 mb-4">
+    <span class="bg-sage text-white text-xs font-bold px-3 py-1 rounded-full uppercase">Pembahasan</span>
+    <h2 class="text-2xl font-bold text-sage">Pembahasan: SKIMMING - Example 1</h2>
+  </div>
+  <div class="bg-softgreen/30 p-4 rounded-2xl mb-4 border border-sage">
+    <p class="text-lg font-bold text-sage mb-1">✅ Jawaban: D. Skimming</p>
+  </div>
+  <div class="space-y-3 text-gray-700 text-sm md:text-base leading-relaxed">
+    <p><strong>Alasan:</strong> Jawabannya adalah <strong>D. Skimming</strong> karena Sarah hanya melihat judul (title), subjudul (headings), dan kalimat pertama dari setiap paragraf. Ia tidak membaca seluruh artikel kata demi kata. Tujuannya adalah untuk memahami topik umum artikel secara cepat.</p>
+    <div class="bg-cream p-4 rounded-xl border border-mint">
+      <p class="font-bold text-sage mb-2">Tindakan khas Skimming yang dilakukan Sarah dalam teks:</p>
+      <ul class="list-disc list-inside space-y-1 text-gray-600">
+        <li>Looked at the title</li>
+        <li>Read the headings</li>
+        <li>Read the first sentences</li>
+        <li>Understood that the article was generally about healthy habits</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Navigasi Tombol Bawah untuk Memudahkan di HP -->
+<footer class="bg-sage text-white p-3 flex justify-between items-center shadow-inner z-10">
+  <button id="prev-btn" class="bg-mint/40 hover:bg-mint/60 px-4 py-2 rounded-lg font-bold text-sm transition">⬅️ Sebelumnya</button>
+  <span class="text-xs text-mint/80 italic">Tips: Geser layar ke kiri/kanan atau pakai tombol</span>
+  <button id="next-btn" class="bg-mint/40 hover:bg-mint/60 px-4 py-2 rounded-lg font-bold text-sm transition">Selanjutnya ➡️</button>
+</footer>
+
+<script>
+  let currentSlideIndex = 0;
+  const slides = document.querySelectorAll('.slide');
+  const totalSlidesSpan = document.getElementById('total-slides');
+  const currentSlideSpan = document.getElementById('current-slide');
+  
+  totalSlidesSpan.textContent = slides.length;
+
+  function showSlide(index) {
+    if (index < 0) {
+      currentSlideIndex = 0;
+    } else if (index >= slides.length) {
+      currentSlideIndex = slides.length - 1;
+    } else {
+      currentSlideIndex = index;
+    }
+
+    slides.forEach((slide, i) => {
+      slide.classList.remove('active');
+      if (i === currentSlideIndex) {
+        slide.classList.add('active');
+      }
+    });
+
+    currentSlideSpan.textContent = currentSlideIndex + 1;
+  }
+
+  document.getElementById('next-btn').addEventListener('click', () => {
+    showSlide(currentSlideIndex + 1);
+  });
+
+  document.getElementById('prev-btn').addEventListener('click', () => {
+    showSlide(currentSlideIndex - 1);
+  });
+
+  // Navigasi Keyboard (Panah Kanan/Kiri) untuk Laptop
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+      showSlide(currentSlideIndex + 1);
+    } else if (e.key === 'ArrowLeft') {
+      showSlide(currentSlideIndex - 1);
+    }
+  });
+
+  // Fitur Swipe Sentuh (Touch Gesture) untuk HP
+  let touchStartX = 0;
+  let touchEndX = 0;
+  const sliderContainer = document.getElementById('slider-container');
+
+  sliderContainer.addEventListener('touchstart', (e) => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, false);
+
+  sliderContainer.addEventListener('touchend', (e) => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, false);
+
+  function handleSwipe() {
+    const threshold = 50; // Batas minimal jarak geser (dalam piksel)
+    if (touchEndX < touchStartX - threshold) {
+      // Geser ke kiri (Next Slide)
+      showSlide(currentSlideIndex + 1);
+    }
+    if (touchEndX > touchStartX + threshold) {
+      // Geser ke kanan (Previous Slide)
+      showSlide(currentSlideIndex - 1);
+    }
+  }
+</script>
+</body>
+</html>
