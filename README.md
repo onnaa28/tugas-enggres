@@ -1,2 +1,5 @@
-# tugas-enggres
-nama : 
+Nama 
+- Cantya
+- Dina
+- Naufa
+- Vionna
